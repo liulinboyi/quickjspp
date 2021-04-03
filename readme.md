@@ -1,3 +1,33 @@
+## 为了学习JavaScript引擎相关知识找到这个库，非常感谢
+
+[ftk/quickjspp](https://github.com/ftk/quickjspp)、
+
+[bellard/quickjs](https://github.com/bellard/quickjs)、
+
+[mengmo/QuickJS-Windows-Build](https://github.com/mengmo/QuickJS-Windows-Build)、
+
+[wintercn](https://github.com/wintercn)、
+
+[doodlewind/minimal-js-runtime](https://github.com/doodlewind/minimal-js-runtime)，
+
+### 遇到你们是我的幸运，谢谢！
+
+### 还有以下文章：
+
+[编译嵌入式引擎QuickJS](https://juejin.cn/post/6870691730904055816)
+
+[如何正确地使用v8嵌入到我们的C++应用中](https://juejin.cn/post/6844903956125057031)
+
+[使用C语言为QuickJS开发一个原生模块](https://my.oschina.net/desdev/blog/3081788)
+
+[深入剖析 JavaScript 编译器/解释器引擎 QuickJS - 多了解些 JavaScript 语言](https://ming1016.github.io/2021/02/21/deeply-analyse-quickjs/)
+
+[100 行代码模拟 React-Native 中 JS 与 C 通信过程](https://segmentfault.com/a/1190000022499343)
+
+[QuickJS中的atom设计](https://tin.js.org/2020/11/28/quickjs1-atom-hash/)
+
+### 相关学习代码在src、test目录中
+
 QuickJSPP is QuickJS wrapper for C++. It allows you to easily embed Javascript engine into your program.
 
 QuickJS is a small and embeddable Javascript engine. It supports the ES2020 specification including modules, asynchronous generators and proxies. More info: <https://bellard.org/quickjs/>

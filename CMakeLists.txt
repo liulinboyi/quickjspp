@@ -14,3 +14,4 @@ target_link_libraries(qjs quickjs)
 
 enable_testing()
 add_subdirectory(test)
+add_subdirectory(src)

@@ -51,7 +51,7 @@ class ColorPoint extends Point {
     }
 };
 
-function main()
+function src()
 {
     var pt, pt2;
 
@@ -68,7 +68,7 @@ function main()
     assert(pt2.get_color() === 0xffffff);
 }
 
-main();
+src();
 )xxx", "<eval>", JS_EVAL_TYPE_MODULE);
     }
     catch(qjs::exception)

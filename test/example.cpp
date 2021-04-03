@@ -37,10 +37,16 @@ int main()
                      "  my.println(v2.member_function(str));" "\n"
                      "}" "\n"
         );
+        context.eval("new Promise(resolve => resolve()).then(() => my.println('hello-promise'))");
+//        context.eval("my.println('hello')");
 
         // callback
         auto cb = (std::function<void(const std::string&)>) context.eval("my_callback");
         cb("world");
+        js_std_loop(context.ctx);
+//        JS_FreeContext(context.ctx);
+//        auto rt = JS_GetRuntime(context.ctx);
+//        JS_FreeRuntime(rt);
     }
     catch(qjs::exception)
     {
